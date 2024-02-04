@@ -5,7 +5,7 @@ function Hero() {
 
 
 
-            <div className=' flex flex-col  justify-center w-[90%]'>
+            <div className=' flex flex-col  justify-center w-full text-center m-auto'>
 
 
 
@@ -13,7 +13,7 @@ function Hero() {
                 <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Here in Raj Vip Number We sell the Most Affordable Vip numbers To make you stand Out of Crowd and have an Outstanding Impression of Your Personal or Business Profile.</p>
 
 
-                <p className='text-3xl font-bold my-4  w-full'>
+                <p className='lg:text-3xl text-xl font-bold my-4  w-full'>
 
                     <TypeAnimation
                         sequence={[
@@ -29,7 +29,7 @@ function Hero() {
                         ]}
                         wrapper="span"
                         speed={20}
-                        style={{ fontSize: '2em', display: 'inline-block' }}
+                        style={{ display: 'inline-block' }}
                         repeat={Infinity}
                     />
 

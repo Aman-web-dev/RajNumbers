@@ -19,7 +19,7 @@ function Navbar() {
 
 
   function makeCall() {
-    window.location.href = 'tel:9625881835';
+    window.location.href = 'tel:9111167676';
   }
 
     return (
@@ -34,7 +34,7 @@ function Navbar() {
   
 
   <div onMouseEnter={()=>{setShow(true)}} onMouseLeave={()=>{setShow(false)}} className="flex flex-col md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-  <button onMouseEnter={()=>{setShow(true)}}  type="button" className="text-white bg-green-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-lg px-4 py-2 text-center dark:bg-green-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-opacity duration-2000 ease-in-out opacity-100">+91  91111-67676</button>
+  {/* <button onMouseEnter={()=>{setShow(true)}}  type="button" className="text-white bg-green-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-lg px-4 py-2 text-center dark:bg-green-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-opacity duration-2000 ease-in-out opacity-100">+91  91111-67676</button> */}
 
   <button data-collapse-toggle="#navbar-sticky" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 transition-opacity duration-2000 ease-in-out opacity-100" aria-controls="navbar-sticky" aria-expanded="false">
     <span className="sr-only">Open main menu</span>
