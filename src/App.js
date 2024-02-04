@@ -7,6 +7,7 @@ import Aos from 'aos';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import Nav from './components/Nav';
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
   return (
 
     <>
-
-    <Navbar/>
+    <Nav/>
+    {/* <Navbar/> */}
     <Outlet/>
     </>
   );
