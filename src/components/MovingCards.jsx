@@ -88,9 +88,9 @@ animation: ${scrollX} 30s;
 
 
 const MovingCards = () => {
-  const cardItems = movingCarouselData.map((item) => (
+  const cardItems = movingCarouselData.map((item,index) => (
 
-    <Card IMGURL={item.img}/>
+    <Card key={index} IMGURL={item.img}/>
 
   ));
 

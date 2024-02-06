@@ -9,8 +9,8 @@ function Process() {
 
    <div className='w-full text-center '>
         
-<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">How To Get a VIP Number</h1>
-<p class="mb-6 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 ">Follow This Process to Buy a VIP Mobile Number.</p>
+<h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">How To Get a VIP Number</h1>
+<p className="mb-6 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 ">Follow This Process to Buy a VIP Mobile Number.</p>
 
 </div> 
    
@@ -42,7 +42,7 @@ function Process() {
 <svg width="" height="" className='w-[80%] h-[70%] m-auto' viewBox="0 0 220 168" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M122.04 53.2643L17.9102 53.4435C8.33792 53.46 0.568737 61.256 0.585218 70.8283L0.704745 140.248C0.721226 149.82 8.51721 157.589 18.0895 157.573L104.864 157.424L139.514 122.654L139.424 70.5893C139.408 61.017 131.612 53.2478 122.04 53.2643ZM70.0795 114.096L70.0496 96.7411L87.4045 96.7113L87.4344 114.066L70.0795 114.096ZM70.1243 140.128L70.0945 122.773L87.4494 122.744L87.4643 131.421C87.4726 136.221 83.6015 140.105 78.8018 140.113L70.1243 140.128ZM35.3847 122.833L35.4145 140.188L26.7371 140.203C21.9374 140.211 18.053 136.34 18.0447 131.541L18.0298 122.863L35.3847 122.833ZM35.3398 96.8009L35.3697 114.156L18.0148 114.186L17.9849 96.8308L35.3398 96.8009ZM35.295 70.7686L35.3249 88.1235L17.97 88.1533L17.9551 79.4759C17.9468 74.6762 21.8179 70.7918 26.6176 70.7835L35.295 70.7686ZM61.3274 70.7237L61.4469 140.143L44.092 140.173L43.9725 70.7536L61.3274 70.7237ZM78.6823 70.6939C83.482 70.6856 87.3664 74.5567 87.3747 79.3564L87.3896 88.0338L70.0347 88.0637L70.0048 70.7088L78.6823 70.6939Z" fill="white"/>
 <path d="M199.672 33.1382C202.308 34.1199 203.134 37.4436 201.265 39.5452L174.223 69.9436C172.085 72.3471 168.129 71.3718 167.353 68.2499L156.268 23.6509C155.492 20.5291 158.531 17.8148 161.546 18.9376L199.672 33.1382Z" fill="white"/>
-<path d="M99.5626 111.41C110.201 69.4855 132.968 38.0529 172.501 47" stroke="white" stroke-width="19"/>
+<path d="M99.5626 111.41C110.201 69.4855 132.968 38.0529 172.501 47" stroke="white" strokeWidth="19"/>
 </svg>
 
 } processTitle={"Go to Your Nearset Porting Shop"}/>
