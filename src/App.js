@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Nav/>
     {/* <Navbar/> */}
     <Outlet/>
+    <Footer/>
     </>
   );
 }

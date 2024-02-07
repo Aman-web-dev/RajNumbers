@@ -9,29 +9,6 @@ const[currentVideo,setCurrentVideo]=useState(0)
 
 
 
-// const PrevVideo=()=>{
-
-// 	console.log(currentVideo,VideotestimonialData.length)
-
-// 	if(currentVideo+1==VideotestimonialData.length){
-
-// 		setCurrentVideo(0)
-
-// 		console.log("setting it to 0")
-// 	}
-
-// 	else{
-
-// 	setCurrentVideo(currentVideo+1)
-
-// 	console.log("here is the CurrentVideo ", currentVideo)
-
-// 	console.log(VideotestimonialData[currentVideo])
-
-// }
-
-	
-// }
 
 
 const PrevVideo = () => {
@@ -54,11 +31,11 @@ const PrevVideo = () => {
 
 
 
-	<div className='text-center'>
+	<div className='text-center my-4'>
 
    
-<h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">We invest in the world’s potential</h1>
-<p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+<h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">Video Testimonials</h1>
+<p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"></p>
 
 
 	</div>

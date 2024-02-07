@@ -1,19 +1,18 @@
 import { TypeAnimation } from 'react-type-animation';
+import Pattern from '../assets/HERO-pattern.svg'
 function Hero() {
     return (
-        <section className="w-full  flex xl:flex-row flex-col min-h-screen align-center justify-center font-sans text-center">
+        <section className="w-full   min-h-screen align-center justify-center font-sans text-center">
 
 
+            <img className='' src={Pattern}/>
 
-            <div className=' flex flex-col  justify-center w-full text-center m-auto'>
+        
 
-
-
-                <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">Get Best VIP numbers by <span className="text-blue-600 dark:text-blue-500"> India's Most Trusted</span> Dealer</h1>
+            <div className=' w-[90vw] border-2 border-black rounded-xl shadow-xl px-2 flex flex-col  justify-center  text-center m-auto'>
+                <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">Get Best <span className="text-blue-600 dark:text-blue-500">VIP</span>  numbers by <span className="text-blue-600 dark:text-blue-500"> India's Most Trusted</span> Dealer</h1>
                 <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Here in Raj Vip Number We sell the Most Affordable Vip numbers To make you stand Out of Crowd and have an Outstanding Impression of Your Personal or Business Profile.</p>
-
-
-                <p className='lg:text-3xl text-xl font-bold my-4  w-full'>
+                <p className='text-xl md:text-4xl font-bold my-4  w-full'>
 
                     <TypeAnimation
                         sequence={[
@@ -32,11 +31,7 @@ function Hero() {
                         style={{ display: 'inline-block' }}
                         repeat={Infinity}
                     />
-
-
                 </p>
-
-
             </div>
         </section>
 
