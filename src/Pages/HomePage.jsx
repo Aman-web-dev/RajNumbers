@@ -15,11 +15,6 @@ function HomePage() {
         <TestimonialSection/>
         <Process/>
 
-
-        {/* <FormSection/> */}
-        {/* <ProjectSection/> */}
-        {/* <ClientSection/> */}
-        {/* <TrustSection/> */}
     </div>
   )
 }

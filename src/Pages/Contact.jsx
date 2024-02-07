@@ -43,7 +43,7 @@ function Contact() {
                                                     Contact
                                                 </p>
                                                 <p className="text-neutral-500 ">
-                                                    rajvipnum@gmail.com
+                                                    rajvipnumb@gmail.com
                                                 </p>
                                                 <p className="text-neutral-500 ">
                                                     +91 91111-67676
@@ -93,7 +93,7 @@ function Contact() {
 
                                                 </p>
                                                 <p className="text-neutral-500 ">
-                                                    +91 630 Khanpur ,110062 New Delhi
+                                                    Chirag Delhi, 110017 New Delhi.
                                                 </p>
                                             </div>
                                         </div>
@@ -112,7 +112,7 @@ function Contact() {
                                             <div className="ml-6 grow">
                                                 <p className="mb-2 font-bold ">Query</p>
                                                 <p className="text-neutral-500 ">
-                                                   rajvipnum@gmail.com
+                                                   rajvipnumb@gmail.com
                                                 </p>
                                                 <p className="text-neutral-500 ">
                                                    
